@@ -1,0 +1,32 @@
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+
+# Local editor configuration
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+
+# Saved RL model checkpoints
+best_model.zip
+best_model_vecnormalize.pkl
+sac_normalised_50k.zip
+sac_normalised_50k_vecnormalize.pkl
